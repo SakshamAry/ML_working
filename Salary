@@ -1,0 +1,52 @@
+Salary Prediction Model
+This project aims to predict salaries based on years of experience using a simple linear regression model.
+
+Table of Contents
+Introduction
+Installation
+Usage
+Dependencies
+License
+Contributing
+Authors
+Acknowledgments
+Introduction
+This project utilizes a simple linear regression model to predict salaries based on years of experience. It uses the Salary_Data.csv dataset containing two columns: "YearsExperience" and "Salary". The model is trained on this dataset and then used to predict salaries for new data points.
+
+Installation
+To use this project, follow these steps:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your_username/salary-prediction.git
+Install the required dependencies:
+
+Copy code
+pip install numpy pandas matplotlib plotly scikit-learn
+Usage
+To run the model and predict salaries:
+
+Ensure that the Salary_Data.csv file is in the same directory as the script.
+Run the script:
+Copy code
+python predict_salary.py
+Follow the on-screen instructions to input the years of experience for which you want to predict the salary.
+Dependencies
+Python 3.x
+NumPy
+Pandas
+Matplotlib
+Plotly
+scikit-learn
+License
+This project is licensed under the MIT License.
+
+Contributing
+Contributions are welcome! Please follow the guidelines outlined in CONTRIBUTING.md.
+
+Authors
+Your Name
+Acknowledgments
+Dataset provided by Your Source
